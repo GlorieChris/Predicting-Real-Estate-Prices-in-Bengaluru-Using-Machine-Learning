@@ -1,6 +1,5 @@
 # Predicting-Real-Estate-Prices-in-Bengaluru-Using-Machine-Learning
 Machine learning model to predict property prices in Bengaluru based on key factors
-Bengaluru-Real-Estate-Price-Prediction/
 ├── data/                     # Contains raw and processed datasets
 │   ├── bengaluru_house_prices.csv  # Original dataset
 │   └── processed_data.csv    # Cleaned and transformed data
