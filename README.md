@@ -14,7 +14,7 @@ The dataset contains 13,320 property listings with features:
 
 - location: The neighborhood or locality where the property is situated (e.g., Electronic City Phase II, Whitefield). Helps identify the geographical area of the property.
 
-- size: Describes the property size of bedrooms. Indicates the number of bedrooms or the type of property.
+- size (converted to bedrooms): Describes the property size of bedrooms. Indicates the number of bedrooms or the type of property.
 
 - society: The name of the housing society or builder. Provides information about the developer or residential complex.
 
@@ -24,7 +24,7 @@ The dataset contains 13,320 property listings with features:
   
 - balcony: The number of balconies in the property.
 
-- price: The price of the property in lakhs. This is the target column.
+- price (target variable): The price of the property in lakhs. This is the target column.
 
 Represents the cost of the property in Indian Rupees (1 lakh = 100,000 INR).
 ## Key Steps
