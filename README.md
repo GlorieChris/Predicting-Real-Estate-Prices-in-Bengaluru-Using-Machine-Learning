@@ -32,9 +32,61 @@ Represents the cost of the property in Indian Rupees (1 lakh = 100,000 INR).
 2. Feature engineering (created price_per_sqft, processed total_sqft)
 3. Outlier detection and handling
 4. Location binning (grouping rare locations)
-5. [Add model development steps when completed]
+5. Model development (Linear Regression model)
+6. Model evaluation using metrics like R² Score and cross-validation
 
 ## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/ideh/Bengaluru-Real-Estate-Price-Prediction.git
+
+## Results & Insights
+
+- Final model: Linear Regression
+- R² Score on test set: 0.83
+- Cross-validation score (mean): 0.80
+- The model performs well and generalizes across the dataset.
+
+**Insight**: Location and total_sqft are strong indicators of price. Outliers significantly affect the price-per-sqft feature and were handled to improve accuracy.
+
+## Tools & Technologies
+- Python
+- Pandas
+- NumPy
+- Matplotlib, Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+## Folder Structure
+
+---
+
+### 5. **🚀 How to Run**
+Give quick steps for other people:
+
+```md
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ideh/Bengaluru-Real-Estate-Price-Prediction.git
+
+jupyter notebook House_Price_Prediction_Project.ipynb
+
+pip install pandas numpy matplotlib seaborn scikit-learn
+
+
+---
+
+### 6. **💡 Future Improvements**
+Show growth mindset 😉
+
+```md
+## Future Improvements
+
+- Implement more complex models (e.g., XGBoost, Random Forest)
+- Perform hyperparameter tuning
+- Deploy model using Flask or Streamlit for web access
+
+
+
