@@ -68,8 +68,7 @@ Give quick steps for other people:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ideh/Bengaluru-Real-Estate-Price-Prediction.git
-
+   git clone https://github.com/gloriechris/Predicting-Real-Estate-Prices-in-Bengaluru-Using-Machine-Learning.git 
 jupyter notebook House_Price_Prediction_Project.ipynb
 
 pip install pandas numpy matplotlib seaborn scikit-learn
