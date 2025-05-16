@@ -35,10 +35,7 @@ Represents the cost of the property in Indian Rupees (1 lakh = 100,000 INR).
 5. Model development (Linear Regression model)
 6. Model evaluation using metrics like R² Score and cross-validation
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/gloriechris/Predicting-Real-Estate-Prices-in-Bengaluru-Using-Machine-Learning.git 
+
 ## Results & Insights
 
 - Final model: Linear Regression
