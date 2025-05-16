@@ -59,6 +59,7 @@ Represents the cost of the property in Indian Rupees (1 lakh = 100,000 INR).
  ## 5. **🚀 How to Run**
 
 git clone https://github.com/gloriechris/Predicting-Real-Estate-Prices-in-Bengaluru-Using-Machine-Learning.git 
+
 jupyter notebook House_Price_Prediction_Project.ipynb
 
 pip install pandas numpy matplotlib seaborn scikit-learn
